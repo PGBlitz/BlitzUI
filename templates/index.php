@@ -16,16 +16,17 @@ body {
 <table width="100%" border="0" cellpadding="5" cellspacing="5">
   <tbody>
     <tr>
-      <td>&nbsp;<img src="https://camo.githubusercontent.com/2d9a1f02588a2f0635117ab3e43dca618344c895/68747470733a2f2f706c657867756964652e636f6d2f77696b69706963732f6c6f676f2e706e67" width="75" height="75" alt=""/></td>
+      <td width="100">&nbsp;</td>
       <td align="center"><h1><strong style="color: #FFFFFF; font-family: Segoe, 'Segoe UI', 'DejaVu Sans', 'Trebuchet MS', Verdana, sans-serif;">PG User Interface (PG UI)</strong></h1></td>
+      <td width="100" align="center"><img src="https://camo.githubusercontent.com/2d9a1f02588a2f0635117ab3e43dca618344c895/68747470733a2f2f706c657867756964652e636f6d2f77696b69706963732f6c6f676f2e706e67" width="75" height="75" alt=""/></td>
     </tr>
   </tbody>
 </table>
 <br>
-<table width="100%" border="0" cellpadding="5" cellspacing="5">
+<table width="100%" border="1" cellpadding="5" cellspacing="0">
   <tbody>
     <tr>
-      <td width="125" style="color: #F7F6F6; font-family: Segoe, 'Segoe UI', 'DejaVu Sans', 'Trebuchet MS', Verdana, sans-serif; font-weight: bold;"> <strong>PG Version</strong></td>
+      <td width="125" style="color: #F7F6F6; font-family: Segoe, 'Segoe UI', 'DejaVu Sans', 'Trebuchet MS', Verdana, sans-serif; font-weight: bold;"> <strong>PG Edition</strong></td>
       <td height="30" class="test" style="color: #FFFFFF; font-family: Segoe, 'Segoe UI', 'DejaVu Sans', 'Trebuchet MS', Verdana, sans-serif;"> <?php $output = shell_exec('cat /plexguide/pg.transport');
 echo "<pre>$output</pre>";
 ?></td>
