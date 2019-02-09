@@ -7,7 +7,6 @@
 body {
 	background-color: #282E39;
 	text-align: left;
-	font-size: medium;
 }
 .test {
 }
@@ -38,34 +37,38 @@ body,td,th {
   </tbody>
 </table>
 <br>
-<table width="1000" border="0" align="center" cellpadding="0" cellspacing="0">
+<table width="90%" border="0" align="center" cellpadding="0" cellspacing="0">
   <tbody>
     <tr>
-      <td width="125" height="30" style="color: #E8DD06; font-family: 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', 'DejaVu Sans', Verdana, sans-serif; font-weight: bolder; font-size: x-large; text-align: left;">Basic Information<br></td>
+      <td width="90%" height="30" style="color: #E8DD06; font-family: 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', 'DejaVu Sans', Verdana, sans-serif; font-weight: bolder; font-size: x-large; text-align: left;">Basic Information</td>
     </tr>
   </tbody>
 </table>
 <br>
-<table width="1000" border="1" align="center" cellpadding="0" cellspacing="0">
+
+<table width="90%" border="1" height="30" align="center" cellpadding="0" cellspacing="0">
   <tbody>
     <tr>
-      <td width="150" height="30" bgcolor="#000000" style="color: #FFFFFF; font-family: 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', 'DejaVu Sans', Verdana, sans-serif; font-weight: bolder; font-size: large; text-align: left;">&nbsp;&nbsp;PG Info</td>
-      <td width="800" height="30" style="color: #E8DD06; font-family: 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', 'DejaVu Sans', Verdana, sans-serif; font-weight: bolder; font-size: x-large; text-align: left;"> <span class="test" style="color: #FFFFFF; font-family: Segoe, 'Segoe UI', 'DejaVu Sans', 'Trebuchet MS', Verdana, sans-serif; font-size: medium;">
-        &nbsp;&nbsp;
+      <td width="125" height="30" bgcolor="#000000" style="color: #F7F6F6; font-family: Segoe, 'Segoe UI', 'DejaVu Sans', 'Trebuchet MS', Verdana, sans-serif; font-weight: bold; font-size: medium;"> <span class="test"><strong>&nbsp;&nbsp;Edition&nbsp;&nbsp;</strong></span></td>
+      <td width="33%" height="30" class="test" style="color: #FFFFFF; font-family: Segoe, 'Segoe UI', 'DejaVu Sans', 'Trebuchet MS', Verdana, sans-serif;"><span class="test" style="color: #FFFFFF; font-family: Segoe, 'Segoe UI', 'DejaVu Sans', 'Trebuchet MS', Verdana, sans-serif; font-size: medium;">
         <?php $output = shell_exec('cat /plexguide/pg.transport');
 echo "<pre>$output</pre>";
 ?>
-        |<span class="test" style="color: #FFFFFF; font-family: Segoe, 'Segoe UI', 'DejaVu Sans', 'Trebuchet MS', Verdana, sans-serif; font-size: medium;">
+      </span></td>
+      <td width="125" height="30" bgcolor="#000000" class="test" style="color: #FFFFFF; font-family: Segoe, 'Segoe UI', 'DejaVu Sans', 'Trebuchet MS', Verdana, sans-serif; font-size: medium;"><strong> &nbsp;&nbsp;Version&nbsp;&nbsp; </strong></td>
+      <td width="34%" height="30" class="test" style="color: #FFFFFF; font-family: Segoe, 'Segoe UI', 'DejaVu Sans', 'Trebuchet MS', Verdana, sans-serif; font-size: medium;"><span class="test" style="color: #FFFFFF; font-family: Segoe, 'Segoe UI', 'DejaVu Sans', 'Trebuchet MS', Verdana, sans-serif; font-size: medium;">
         <?php $output = shell_exec('cat /plexguide/pg.number');
 echo "<pre>$output</pre>";
 ?>
-        |
+      </span></td>
+      <td width="125" height="30" bgcolor="#000000" class="test" style="color: #FFFFFF; font-family: Segoe, 'Segoe UI', 'DejaVu Sans', 'Trebuchet MS', Verdana, sans-serif; font-size: medium;"><span class="test" style="color: #FFFFFF; font-family: Segoe, 'Segoe UI', 'DejaVu Sans', 'Trebuchet MS', Verdana, sans-serif; font-size: medium;"><strong>&nbsp;&nbsp;ServerID&nbsp;&nbsp;</strong></span></td>
+      <td width="33%" height="30" class="test" style="color: #FFFFFF; font-family: Segoe, 'Segoe UI', 'DejaVu Sans', 'Trebuchet MS', Verdana, sans-serif; font-size: medium;"><span class="test" style="color: #FFFFFF; font-family: Segoe, 'Segoe UI', 'DejaVu Sans', 'Trebuchet MS', Verdana, sans-serif; font-size: medium;">
         <?php $output = shell_exec('cat /plexguide/server.id');
 echo "<pre>$output</pre>" ?>
-        </span></span></td>
+      </span></td>
     </tr>
   </tbody>
 </table>
-<p>&nbsp;</p>
+<br>
 </body>
 </html>
