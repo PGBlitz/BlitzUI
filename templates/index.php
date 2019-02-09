@@ -22,12 +22,10 @@ body {
   </tbody>
 </table>
 	<input type="submit" class="button" name="select" value="select" />
-<?php
-function select() {
-    touch /tmp/stupid.txt;
-    exit;
-}
-?>
 
+Hello, today is <?php $output = shell_exec('ls -lart');
+echo "<pre>$output</pre>";
+?>.
+	
 </body>
 </html>
