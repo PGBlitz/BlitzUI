@@ -46,11 +46,11 @@ body,td,th {
 </table>
 <br>
 
-<table width="90%" border="1" height="20" align="center" cellpadding="2" cellspacing="0">
+<table width="90%" border="1" height="20" align="center" cellpadding="0" cellspacing="0">
   <tbody>
     <tr>
       <td width="125" height="20" bgcolor="#000000" style="color: #F7F6F6; font-family: Segoe, 'Segoe UI', 'DejaVu Sans', 'Trebuchet MS', Verdana, sans-serif; font-weight: bold; font-size: medium;"> <span class="test"><strong>&nbsp;&nbsp;Edition&nbsp;&nbsp;</strong></span></td>
-      <td width="33%" height="20" class="test" style="color: #FFFFFF; font-family: Segoe, 'Segoe UI', 'DejaVu Sans', 'Trebuchet MS', Verdana, sans-serif; align-content: center;"><?php $output = shell_exec('cat /plexguide/pg.transport');
+      <td width="33%" height="20" class="test" style="color: #FFFFFF; font-family: Segoe, 'Segoe UI', 'DejaVu Sans', 'Trebuchet MS', Verdana, sans-serif;"><?php $output = shell_exec('cat /plexguide/pg.transport');
 echo "<pre>$output</pre>";
 ?>
       <span style="text-align: center"></span><span style="text-align: justify"></span></td>
