@@ -21,6 +21,14 @@
     - name: 'Including cron job'
       include_tasks: '/opt/plexguide/containers/_core.yml'
 
+    - name: Install File
+      template:
+        src: /opt/pgui/templates/index.php
+        dest: /opt/appdata/pgui/index.php
+        force: yes
+        owner: 1000
+        group: 1000
+
     # LABELS ######################################################################
     - name: 'Adding Traefik'
       set_fact:
