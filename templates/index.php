@@ -27,7 +27,7 @@ body {
   <tbody>
     <tr>
       <td style="color: #F7F6F6">PG Version</td>
-      <td class="test" style="color: #FFFFFF"><?php $output = shell_exec('cat /plexguide/pgclone.transport');
+      <td class="test" style="color: #FFFFFF"><?php $output = shell_exec('cat /plexguide/pg.transport');
 echo "<pre>$output</pre>";
 ?></td>
     </tr>
