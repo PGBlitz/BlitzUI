@@ -45,7 +45,7 @@ body,td,th {
   </tbody>
 </table>
 
-<table width="98%" border="1" align="center" cellpadding="10" cellspacing="0">
+<table width="98%" border="1" height="30" align="center" cellpadding="10" cellspacing="0">
   <tbody>
     <tr>
       <td width="125" height="30" bgcolor="#000000" style="color: #F7F6F6; font-family: Segoe, 'Segoe UI', 'DejaVu Sans', 'Trebuchet MS', Verdana, sans-serif; font-weight: bold; font-size: medium;"> <strong>Edition</strong></td>
