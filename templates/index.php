@@ -119,7 +119,7 @@ echo "<pre>$output</pre>";
         <span style="text-align: center"></span><span style="text-align: justify"></span></td>
       <td width="105" height="20" bgcolor="#000000" class="test" style="color: #FFFFFF; font-family: Segoe, 'Segoe UI', 'DejaVu Sans', 'Trebuchet MS', Verdana, sans-serif; font-size: medium;"><strong>&nbsp;&nbsp;Ansible </strong></td>
       <td width="229" height="20" class="test" style="color: #FFFFFF; font-family: Segoe, 'Segoe UI', 'DejaVu Sans', 'Trebuchet MS', Verdana, sans-serif; font-size: medium;"><span class="test" style="color: #FFFFFF; font-family: Segoe, 'Segoe UI', 'DejaVu Sans', 'Trebuchet MS', Verdana, sans-serif; font-size: medium;">
-        <?php $output = shell_exec('cat /plexguide/pg.number');
+        <?php $output = shell_exec('cat /plexguide/pg.ansible');
 echo "<pre>$output</pre>";
 ?>
       </span></td>
