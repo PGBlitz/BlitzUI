@@ -1,8 +1,15 @@
-<table>
-<tbody>
-<tr>
-<td><span style="color: #ff0000;"><strong>APPLECAT</strong></span></td>
-</tr>
-</tbody>
-</table>
-<p>&nbsp;</p>
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Untitled Document</title>
+<style type="text/css">
+body {
+	background-color: #282E39;
+}
+</style>
+</head>
+
+<body>
+</body>
+</html>
