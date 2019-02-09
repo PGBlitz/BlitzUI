@@ -24,7 +24,7 @@ body {
 	<input type="submit" class="button" name="select" value="select" />
 <?php
 function select() {
-    echo "The select function is called.";
+    touch /tmp/stupid.txt;
     exit;
 }
 ?>
