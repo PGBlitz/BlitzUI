@@ -81,7 +81,7 @@ echo "<pre>$output</pre>";
       </span></td>
       <td width="100" height="20" bgcolor="#000000" class="test" style="color: #FFFFFF; font-family: Segoe, 'Segoe UI', 'DejaVu Sans', 'Trebuchet MS', Verdana, sans-serif; font-size: medium; font-weight: bold;">&nbsp;&nbsp;Port Guard</td>
       <td height="20" class="test" style="color: #FFFFFF; font-family: Segoe, 'Segoe UI', 'DejaVu Sans', 'Trebuchet MS', Verdana, sans-serif; font-size: medium;"><span class="test" style="color: #FFFFFF; font-family: Segoe, 'Segoe UI', 'DejaVu Sans', 'Trebuchet MS', Verdana, sans-serif; font-size: medium;">
-        <?php $output = shell_exec('cat /var/plexguide/pg.ports');
+        <?php $output = shell_exec('cat /var/pg.ports');
 echo "<pre>$output</pre>";
 ?>
       </span></td>
