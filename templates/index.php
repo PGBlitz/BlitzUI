@@ -27,7 +27,7 @@ body {
   <tbody>
     <tr>
       <td width="125" style="color: #F7F6F6; font-family: Segoe, 'Segoe UI', 'DejaVu Sans', 'Trebuchet MS', Verdana, sans-serif;"> <strong>&nbsp;PG Version</strong></td>
-      <td class="test" style="color: #FFFFFF">&nbsp;        <?php $output = shell_exec('cat /plexguide/pgclone.transport');
+      <td class="test" style="color: #FFFFFF; font-family: Segoe, 'Segoe UI', 'DejaVu Sans', 'Trebuchet MS', Verdana, sans-serif;">&nbsp;        <?php $output = shell_exec('cat /plexguide/pg.transport');
 echo "<pre>$output</pre>";
 ?></td>
     </tr>
