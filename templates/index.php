@@ -36,7 +36,14 @@ body,td,th {
     </tr>
   </tbody>
 </table>
-<br>
+<table width="90%" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tbody>
+    <tr>
+      <td width="90%" height="30" style="color: #FFFFFF; font-family: 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', 'DejaVu Sans', Verdana, sans-serif; font-weight: bolder; font-size: small; text-align: center;"><span style="font-weight: bolder; font-style: normal;">PG Members Save:&nbsp;&nbsp;</span><a href="https://www.newshosting.com/partners/?a_aid=5a65169240efd&a_bid=5ecfe99b" target="_blank">[ NewsHosting ]</a>&nbsp;&nbsp;<a href="https://www.usenetserver.com/partners?a_aid=5a65169240efd&a_bid=5725b6ed" target="_blank">[UseNetServer]</a>&nbsp;&nbsp;<a href="https://www.easynews.com/?a_aid=5a65169240efd&a_bid=ef2f9ea1" target="_blank">[EasyNews]</a></td>
+    </tr>
+  </tbody>
+</table>
+
 <table width="90%" border="0" align="center" cellpadding="0" cellspacing="0">
   <tbody>
     <tr>
@@ -49,37 +56,37 @@ body,td,th {
 <table width="90%" border="1" height="42" align="center" cellpadding="0" cellspacing="0">
   <tbody>
     <tr>
-      <td width="100" height="20" bgcolor="#000000" style="color: #F7F6F6; font-family: Segoe, 'Segoe UI', 'DejaVu Sans', 'Trebuchet MS', Verdana, sans-serif; font-weight: bold; font-size: medium;"> <span class="test"><strong>&nbsp;&nbsp;Edition&nbsp;&nbsp;</strong></span></td>
+      <td width="105" height="20" bgcolor="#000000" style="color: #F7F6F6; font-family: Segoe, 'Segoe UI', 'DejaVu Sans', 'Trebuchet MS', Verdana, sans-serif; font-weight: bold; font-size: medium;"> <span class="test"><strong>&nbsp;&nbsp;Edition&nbsp;&nbsp;</strong></span></td>
       <td width="272" height="20" class="test" style="color: #FFFFFF; font-family: Segoe, 'Segoe UI', 'DejaVu Sans', 'Trebuchet MS', Verdana, sans-serif;"><?php $output = shell_exec('cat /plexguide/pg.transport');
 echo "<pre>$output</pre>";
 ?>
       <span style="text-align: center"></span><span style="text-align: justify"></span></td>
-      <td width="100" height="20" bgcolor="#000000" class="test" style="color: #FFFFFF; font-family: Segoe, 'Segoe UI', 'DejaVu Sans', 'Trebuchet MS', Verdana, sans-serif; font-size: medium;"><strong>&nbsp;&nbsp;Version&nbsp;&nbsp; </strong></td>
+      <td width="105" height="20" bgcolor="#000000" class="test" style="color: #FFFFFF; font-family: Segoe, 'Segoe UI', 'DejaVu Sans', 'Trebuchet MS', Verdana, sans-serif; font-size: medium;"><strong>&nbsp;&nbsp;Version&nbsp;&nbsp; </strong></td>
       <td width="247" height="20" class="test" style="color: #FFFFFF; font-family: Segoe, 'Segoe UI', 'DejaVu Sans', 'Trebuchet MS', Verdana, sans-serif; font-size: medium;"><span class="test" style="color: #FFFFFF; font-family: Segoe, 'Segoe UI', 'DejaVu Sans', 'Trebuchet MS', Verdana, sans-serif; font-size: medium;">
         <?php $output = shell_exec('cat /plexguide/pg.number');
 echo "<pre>$output</pre>";
 ?>
       </span></td>
-      <td width="100" height="20" bgcolor="#000000" class="test" style="color: #FFFFFF; font-family: Segoe, 'Segoe UI', 'DejaVu Sans', 'Trebuchet MS', Verdana, sans-serif; font-size: medium;"><span class="test" style="color: #FFFFFF; font-family: Segoe, 'Segoe UI', 'DejaVu Sans', 'Trebuchet MS', Verdana, sans-serif; font-size: medium;"><strong>&nbsp;&nbsp;ServerID&nbsp;&nbsp;</strong></span></td>
+      <td width="105" height="20" bgcolor="#000000" class="test" style="color: #FFFFFF; font-family: Segoe, 'Segoe UI', 'DejaVu Sans', 'Trebuchet MS', Verdana, sans-serif; font-size: medium;"><span class="test" style="color: #FFFFFF; font-family: Segoe, 'Segoe UI', 'DejaVu Sans', 'Trebuchet MS', Verdana, sans-serif; font-size: medium;"><strong>&nbsp;&nbsp;ServerID&nbsp;&nbsp;</strong></span></td>
       <td width="192" height="20" class="test" style="color: #FFFFFF; font-family: Segoe, 'Segoe UI', 'DejaVu Sans', 'Trebuchet MS', Verdana, sans-serif; font-size: medium;"><span class="test" style="color: #FFFFFF; font-family: Segoe, 'Segoe UI', 'DejaVu Sans', 'Trebuchet MS', Verdana, sans-serif; font-size: medium;">
         <?php $output = shell_exec('cat /plexguide/server.id');
 echo "<pre>$output</pre>" ?>
       </span></td>
     </tr>
     <tr>
-      <td width="100" height="20" bgcolor="#000000" style="color: #F7F6F6; font-family: Segoe, 'Segoe UI', 'DejaVu Sans', 'Trebuchet MS', Verdana, sans-serif; font-weight: bold; font-size: medium;"><strong>&nbsp;&nbsp;Traefik</strong></td>
+      <td width="105" height="20" bgcolor="#000000" style="color: #F7F6F6; font-family: Segoe, 'Segoe UI', 'DejaVu Sans', 'Trebuchet MS', Verdana, sans-serif; font-weight: bold; font-size: medium;"><strong>&nbsp;&nbsp;Traefik</strong></td>
       <td height="20" class="test" style="color: #FFFFFF; font-family: Segoe, 'Segoe UI', 'DejaVu Sans', 'Trebuchet MS', Verdana, sans-serif;"><span class="test" style="color: #FFFFFF; font-family: Segoe, 'Segoe UI', 'DejaVu Sans', 'Trebuchet MS', Verdana, sans-serif;">
         <?php $output = shell_exec('cat /plexguide/pg.treafik');
 echo "<pre>$output</pre>";
 ?>
       </span></td>
-      <td width="100" height="20" bgcolor="#000000" style="color: #F7F6F6; font-family: Segoe, 'Segoe UI', 'DejaVu Sans', 'Trebuchet MS', Verdana, sans-serif; font-weight: bold; font-size: medium; "><strong>&nbsp;&nbsp;PG Shield</strong></td>
+      <td width="105" height="20" bgcolor="#000000" style="color: #F7F6F6; font-family: Segoe, 'Segoe UI', 'DejaVu Sans', 'Trebuchet MS', Verdana, sans-serif; font-weight: bold; font-size: medium; "><strong>&nbsp;&nbsp;PG Shield</strong></td>
       <td height="20" class="test" style="color: #FFFFFF; font-family: Segoe, 'Segoe UI', 'DejaVu Sans', 'Trebuchet MS', Verdana, sans-serif; font-size: medium;"><span class="test" style="color: #FFFFFF; font-family: Segoe, 'Segoe UI', 'DejaVu Sans', 'Trebuchet MS', Verdana, sans-serif; font-size: medium;">
         <?php $output = shell_exec('cat /plexguide/pg.number');
 echo "<pre>$output</pre>";
 ?>
       </span></td>
-      <td width="100" height="20" bgcolor="#000000" class="test" style="color: #FFFFFF; font-family: Segoe, 'Segoe UI', 'DejaVu Sans', 'Trebuchet MS', Verdana, sans-serif; font-size: medium; font-weight: bold;">&nbsp;&nbsp;Port Guard</td>
+      <td width="105" height="20" bgcolor="#000000" class="test" style="color: #FFFFFF; font-family: Segoe, 'Segoe UI', 'DejaVu Sans', 'Trebuchet MS', Verdana, sans-serif; font-size: medium; font-weight: bold;">&nbsp;&nbsp;Port Guard</td>
       <td height="20" class="test" style="color: #FFFFFF; font-family: Segoe, 'Segoe UI', 'DejaVu Sans', 'Trebuchet MS', Verdana, sans-serif; font-size: medium;"><span class="test" style="color: #FFFFFF; font-family: Segoe, 'Segoe UI', 'DejaVu Sans', 'Trebuchet MS', Verdana, sans-serif; font-size: medium;">
         <?php $output = shell_exec('cat /var/pg.ports');
 echo "<pre>$output</pre>";
@@ -89,5 +96,56 @@ echo "<pre>$output</pre>";
   </tbody>
 </table>
 <br>
+<table width="90%" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tbody>
+    <tr>
+      <td width="90%" height="30" style="color: #E8DD06; font-family: 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', 'DejaVu Sans', Verdana, sans-serif; font-weight: bolder; font-size: x-large; text-align: left;">Server Information</td>
+    </tr>
+  </tbody>
+</table>
+<br>
+<table width="90%" border="1" height="42" align="center" cellpadding="0" cellspacing="0">
+  <tbody>
+    <tr>
+      <td width="105" height="20" bgcolor="#000000" style="color: #F7F6F6; font-family: Segoe, 'Segoe UI', 'DejaVu Sans', 'Trebuchet MS', Verdana, sans-serif; font-weight: bold; font-size: medium;"><span class="test"><strong>&nbsp;&nbsp;OS&nbsp;</strong></span></td>
+      <td width="252" height="20" class="test" style="color: #FFFFFF; font-family: Segoe, 'Segoe UI', 'DejaVu Sans', 'Trebuchet MS', Verdana, sans-serif;"><?php $output = shell_exec('cat /plexguide/pg.transport');
+echo "<pre>$output</pre>";
+?>
+        <span style="text-align: center"></span><span style="text-align: justify"></span></td>
+      <td width="105" height="20" bgcolor="#000000" class="test" style="color: #FFFFFF; font-family: Segoe, 'Segoe UI', 'DejaVu Sans', 'Trebuchet MS', Verdana, sans-serif; font-size: medium;"><strong>&nbsp;&nbsp;Ansible </strong></td>
+      <td width="229" height="20" class="test" style="color: #FFFFFF; font-family: Segoe, 'Segoe UI', 'DejaVu Sans', 'Trebuchet MS', Verdana, sans-serif; font-size: medium;"><span class="test" style="color: #FFFFFF; font-family: Segoe, 'Segoe UI', 'DejaVu Sans', 'Trebuchet MS', Verdana, sans-serif; font-size: medium;">
+        <?php $output = shell_exec('cat /plexguide/pg.number');
+echo "<pre>$output</pre>";
+?>
+      </span></td>
+      <td width="105" height="20" bgcolor="#000000" class="test" style="color: #FFFFFF; font-family: Segoe, 'Segoe UI', 'DejaVu Sans', 'Trebuchet MS', Verdana, sans-serif; font-size: medium;"><span class="test" style="color: #FFFFFF; font-family: Segoe, 'Segoe UI', 'DejaVu Sans', 'Trebuchet MS', Verdana, sans-serif; font-size: medium;"><strong>&nbsp;&nbsp;Free Space&nbsp;</strong></span></td>
+      <td width="173" height="20" class="test" style="color: #FFFFFF; font-family: Segoe, 'Segoe UI', 'DejaVu Sans', 'Trebuchet MS', Verdana, sans-serif; font-size: medium;"><span class="test" style="color: #FFFFFF; font-family: Segoe, 'Segoe UI', 'DejaVu Sans', 'Trebuchet MS', Verdana, sans-serif; font-size: medium;">
+        <?php $output = shell_exec('cat /plexguide/server.id');
+echo "<pre>$output</pre>" ?>
+      </span></td>
+    </tr>
+    <tr>
+      <td width="105" height="20" bgcolor="#000000" style="color: #F7F6F6; font-family: Segoe, 'Segoe UI', 'DejaVu Sans', 'Trebuchet MS', Verdana, sans-serif; font-weight: bold; font-size: medium;"><strong>&nbsp;&nbsp;PG GCE</strong></td>
+      <td height="20" class="test" style="color: #FFFFFF; font-family: Segoe, 'Segoe UI', 'DejaVu Sans', 'Trebuchet MS', Verdana, sans-serif;"><span class="test" style="color: #FFFFFF; font-family: Segoe, 'Segoe UI', 'DejaVu Sans', 'Trebuchet MS', Verdana, sans-serif;">
+        <?php $output = shell_exec('cat /plexguide/pg.treafik');
+echo "<pre>$output</pre>";
+?>
+      </span></td>
+      <td width="105" height="20" bgcolor="#000000" style="color: #F7F6F6; font-family: Segoe, 'Segoe UI', 'DejaVu Sans', 'Trebuchet MS', Verdana, sans-serif; font-weight: bold; font-size: medium; "><strong>&nbsp;&nbsp;Docker</strong></td>
+      <td height="20" class="test" style="color: #FFFFFF; font-family: Segoe, 'Segoe UI', 'DejaVu Sans', 'Trebuchet MS', Verdana, sans-serif; font-size: medium;"><span class="test" style="color: #FFFFFF; font-family: Segoe, 'Segoe UI', 'DejaVu Sans', 'Trebuchet MS', Verdana, sans-serif; font-size: medium;">
+        <?php $output = shell_exec('cat /plexguide/pg.number');
+echo "<pre>$output</pre>";
+?>
+      </span></td>
+      <td width="105" height="20" bgcolor="#000000" class="test" style="color: #FFFFFF; font-family: Segoe, 'Segoe UI', 'DejaVu Sans', 'Trebuchet MS', Verdana, sans-serif; font-size: medium; font-weight: bold;">&nbsp;&nbsp;Disk Space</td>
+      <td height="20" class="test" style="color: #FFFFFF; font-family: Segoe, 'Segoe UI', 'DejaVu Sans', 'Trebuchet MS', Verdana, sans-serif; font-size: medium;"><span class="test" style="color: #FFFFFF; font-family: Segoe, 'Segoe UI', 'DejaVu Sans', 'Trebuchet MS', Verdana, sans-serif; font-size: medium;">
+        <?php $output = shell_exec('cat /var/pg.ports');
+echo "<pre>$output</pre>";
+?>
+      </span></td>
+    </tr>
+  </tbody>
+</table>
+<p>&nbsp;</p>
 </body>
 </html>
