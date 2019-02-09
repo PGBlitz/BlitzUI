@@ -23,7 +23,7 @@ body {
   </tbody>
 </table>
 <br>
-<table width="100%" border="1" cellpadding="5" cellspacing="0">
+<table width="98%" border="1" align="center" cellpadding="5" cellspacing="0">
   <tbody>
     <tr>
       <td width="125" style="color: #F7F6F6; font-family: Segoe, 'Segoe UI', 'DejaVu Sans', 'Trebuchet MS', Verdana, sans-serif; font-weight: bold;"> <strong>PG Edition</strong></td>
