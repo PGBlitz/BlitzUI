@@ -13,18 +13,16 @@ body {
 </head>
 
 <body>
+<p><img src="https://camo.githubusercontent.com/2d9a1f02588a2f0635117ab3e43dca618344c895/68747470733a2f2f706c657867756964652e636f6d2f77696b69706963732f6c6f676f2e706e67" width="75" height="75" alt=""/></p>
 <table width="200" border="1">
   <tbody>
     <tr>
-      <td><img src="https://camo.githubusercontent.com/2d9a1f02588a2f0635117ab3e43dca618344c895/68747470733a2f2f706c657867756964652e636f6d2f77696b69706963732f6c6f676f2e706e67" width="75" height="75" alt=""/></td>
-      <td class="test">&nbsp;</td>
+      <td style="color: #F7F6F6">PG Version</td>
+      <td class="test" style="color: #F7F6F6"><?php $output = shell_exec('cat /plexguide/pgclone.transport');
+echo "<pre>$output</pre>";
+?></td>
     </tr>
   </tbody>
 </table>
-
-Hello, today is <?php $output = shell_exec('cat /plexguide/pgclone.transport');
-echo "<pre>$output</pre>";
-?>.
-
 </body>
 </html>
