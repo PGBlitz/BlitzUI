@@ -10,18 +10,17 @@ body {
 }
 .test {
 }
+body,td,th {
+	color: #FFFFFF;
+}
 </style>
 </head>
 
-<body>
+<body text="#FFFFFF">
 <table width="100%" border="0" cellpadding="5" cellspacing="5">
   <tbody>
     <tr>
-      <td width="100"><span class="test" style="color: #FFFFFF; font-family: Segoe, 'Segoe UI', 'DejaVu Sans', 'Trebuchet MS', Verdana, sans-serif; font-size: medium;">
-        <?php $output = shell_exec('cat /plexguide/pg.number');
-echo "<pre>$output</pre>";
-?>
-      </span></td>
+      <td width="100">&nbsp;</td>
       <td align="center"><h1><strong style="color: #FFFFFF; font-family: Segoe, 'Segoe UI', 'DejaVu Sans', 'Trebuchet MS', Verdana, sans-serif; font-size: xx-large; font-weight: bolder;">PG User Interface (PG UI)</strong></h1></td>
       <td width="100" align="center"><img src="https://camo.githubusercontent.com/2d9a1f02588a2f0635117ab3e43dca618344c895/68747470733a2f2f706c657867756964652e636f6d2f77696b69706963732f6c6f676f2e706e67" width="75" height="75" alt=""/></td>
     </tr>
@@ -38,7 +37,7 @@ echo "<pre>$output</pre>";
   </tbody>
 </table>
 <br>
-<table width="98%" border="0" align="center" cellpadding="10" cellspacing="0">
+<table width="98%" border="0" align="center" cellpadding="0" cellspacing="0">
   <tbody>
     <tr>
       <td width="125" height="30" style="color: #E8DD06; font-family: 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', 'DejaVu Sans', Verdana, sans-serif; font-weight: bolder; font-size: x-large; text-align: left;">Basic Information</td>
