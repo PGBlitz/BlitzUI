@@ -23,13 +23,21 @@ body {
   </tbody>
 </table>
 <br>
-<table width="94%" border="1" align="center" cellpadding="5" cellspacing="0">
+<table width="98%" border="1" align="center" cellpadding="10" cellspacing="0">
   <tbody>
     <tr>
       <td width="125" style="color: #F7F6F6; font-family: Segoe, 'Segoe UI', 'DejaVu Sans', 'Trebuchet MS', Verdana, sans-serif; font-weight: bold;"> <strong>PG Edition</strong></td>
-      <td height="30" style="color: #F7F6F6; font-family: Segoe, 'Segoe UI', 'DejaVu Sans', 'Trebuchet MS', Verdana, sans-serif; font-weight: bold;"> <?php $output = shell_exec('cat /plexguide/pg.transport');
+      <td width="50%" height="30" class="test" style="color: #FFFFFF; font-family: Segoe, 'Segoe UI', 'DejaVu Sans', 'Trebuchet MS', Verdana, sans-serif;"><span class="test" style="color: #FFFFFF; font-family: Segoe, 'Segoe UI', 'DejaVu Sans', 'Trebuchet MS', Verdana, sans-serif;">
+        <?php $output = shell_exec('cat /plexguide/pg.transport');
 echo "<pre>$output</pre>";
-?></td>
+?>
+      </span></td>
+      <td width="125" class="test" style="color: #FFFFFF; font-family: Segoe, 'Segoe UI', 'DejaVu Sans', 'Trebuchet MS', Verdana, sans-serif;"><strong>PG Version</strong></td>
+      <td width="50%" class="test" style="color: #FFFFFF; font-family: Segoe, 'Segoe UI', 'DejaVu Sans', 'Trebuchet MS', Verdana, sans-serif;"><span class="test" style="color: #FFFFFF; font-family: Segoe, 'Segoe UI', 'DejaVu Sans', 'Trebuchet MS', Verdana, sans-serif;">
+        <?php $output = shell_exec('cat /plexguide/pg.number');
+echo "<pre>$output</pre>";
+?>
+      </span></td>
     </tr>
   </tbody>
 </table>
