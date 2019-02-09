@@ -138,7 +138,7 @@ echo "<pre>$output</pre>";
       </span></td>
       <td width="105" height="20" bgcolor="#000000" style="color: #F7F6F6; font-family: Segoe, 'Segoe UI', 'DejaVu Sans', 'Trebuchet MS', Verdana, sans-serif; font-weight: bold; font-size: medium; "><strong>&nbsp;&nbsp;Docker</strong></td>
       <td height="20" class="test" style="color: #FFFFFF; font-family: Segoe, 'Segoe UI', 'DejaVu Sans', 'Trebuchet MS', Verdana, sans-serif; font-size: medium;"><span class="test" style="color: #FFFFFF; font-family: Segoe, 'Segoe UI', 'DejaVu Sans', 'Trebuchet MS', Verdana, sans-serif; font-size: medium;">
-        <?php $output = shell_exec('cat /plexguide/pg.number');
+        <?php $output = shell_exec('cat /plexguide/pg.docker');
 echo "<pre>$output</pre>";
 ?>
       </span></td>
