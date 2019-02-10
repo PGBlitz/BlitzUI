@@ -22,7 +22,7 @@ a:link {
 </head>
 
 <body text="#FFFFFF">
-<table width="100%" border="0" cellpadding="5" cellspacing="5" background="https://plexguide.com/wikipics/motherboard.png">
+<table width="100%" border="0" cellpadding="5" cellspacing="5" background="https://plexguide.com/wikipics/motherboard2.png">
   <tbody>
     <tr>
       <td width="100">&nbsp;</td>
