@@ -132,7 +132,7 @@ echo "<pre>$output</pre>" ?>
     <tr>
       <td width="105" height="20" bgcolor="#000000" style="color: #F7F6F6; font-family: Segoe, 'Segoe UI', 'DejaVu Sans', 'Trebuchet MS', Verdana, sans-serif; font-weight: bold; font-size: medium;"><strong>&nbsp;&nbsp;PG GCE</strong></td>
       <td height="20" class="test" style="color: #FFFFFF; font-family: Segoe, 'Segoe UI', 'DejaVu Sans', 'Trebuchet MS', Verdana, sans-serif;"><span class="test" style="color: #FFFFFF; font-family: Segoe, 'Segoe UI', 'DejaVu Sans', 'Trebuchet MS', Verdana, sans-serif;">
-        <?php $output = shell_exec('cat /plexguide/pg.treafik');
+        <?php $output = shell_exec('cat /plexguide/pg.gce');
 echo "<pre>$output</pre>";
 ?>
       </span></td>
