@@ -79,9 +79,9 @@ echo "<pre>$output</pre>" ?>
       </span></td>
     </tr>
     <tr>
-      <td width="130" bgcolor="#171515" style="font-size: medium">&nbsp;&nbsp;Traefik</td>
+      <td width="130" bgcolor="#000000" style="font-size: medium">&nbsp;&nbsp;Traefik</td>
       <td width="170" style="font-size: medium"><span class="test" style="color: #FFFFFF; font-family: Segoe, 'Segoe UI', 'DejaVu Sans', 'Trebuchet MS', Verdana, sans-serif;">
-        <?php $output = shell_exec('cat /plexguide/pg.treafik');
+        <?php $output = shell_exec('cat /plexguide/pg.traefik');
 echo "<pre>$output</pre>";
 ?>
       </span></td>
@@ -99,7 +99,7 @@ echo "<pre>$output</pre>";
       </span></td>
     </tr>
     <tr>
-      <td bgcolor="#171515" style="font-size: medium"><span style="color: #F7F6F6; font-weight: bold; font-size: medium;"><strong>&nbsp;&nbsp;OS</strong></span></td>
+      <td bgcolor="#000000" style="font-size: medium"><span style="color: #F7F6F6; font-weight: bold; font-size: medium;"><strong>&nbsp;&nbsp;OS</strong></span></td>
       <td style="font-size: medium"><span class="test" style="color: #FFFFFF;">
         <?php $output = shell_exec('cat /plexguide/pg.os');
 echo "<pre>$output</pre>";
@@ -118,7 +118,7 @@ echo "<pre>$output</pre>" ?>
       </span></td>
     </tr>
     <tr>
-      <td bgcolor="#171515" style="font-size: medium"><span style="color: #F7F6F6; font-weight: bold; font-size: medium;"><strong>&nbsp; PG GCE</strong></span></td>
+      <td bgcolor="#000000" style="font-size: medium"><span style="color: #F7F6F6; font-weight: bold; font-size: medium;"><strong>&nbsp; PG GCE</strong></span></td>
       <td style="font-size: medium"><span class="test" style="color: #FFFFFF;">
         <?php $output = shell_exec('cat /plexguide/pg.gce');
 echo "<pre>$output</pre>";
