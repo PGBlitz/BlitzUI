@@ -70,7 +70,8 @@ echo "<pre>$output</pre>";
 <table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
   <tbody>
     <tr>
-      <td width="90%" height="30" style="color: #E11919; font-family: 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', 'DejaVu Sans', Verdana, sans-serif; font-weight: bolder; font-size: large; text-align: left;">WARNING LOG</td>
+      <td width="90%" height="30" style="color: #E11919; font-family: 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', 'DejaVu Sans', Verdana, sans-serif; font-weight: bolder; font-size: large; text-align: left;"><br>
+      WARNING LOG</td>
     </tr>
   </tbody>
 </table>
@@ -83,14 +84,14 @@ echo "<pre>$output</pre>";
 </table>
 <br>
 
-<table width="1000" border="0" align="center" cellpadding="0" cellspacing="0">
+<table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
   <tbody>
     <tr>
       <td width="90%" height="30" style="color: #E8DD06; font-family: 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', 'DejaVu Sans', Verdana, sans-serif; font-weight: bolder; font-size: large; text-align: left;">Basic Information</td>
     </tr>
   </tbody>
 </table>
-<table width="1000" border="1" align="center" cellpadding="0" cellspacing="0">
+<table width="100%" border="1" align="center" cellpadding="0" cellspacing="0">
   <tbody>
     <tr>
       <td width="130" bgcolor="#000000" style="font-size: medium">&nbsp;&nbsp;Edition</td>
@@ -172,14 +173,14 @@ echo "<pre>$output</pre>";
   </tbody>
 </table>
 <br>
-<table width="1000" border="0" align="center" cellpadding="0" cellspacing="0">
+<table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
   <tbody>
     <tr>
-      <td width="90%" height="30" style="color: #E8DD06; font-family: 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', 'DejaVu Sans', Verdana, sans-serif; font-weight: bolder; font-size: large; text-align: left;">RClone | Mount Checks</td>
+      <td width="100%" height="30" style="color: #E8DD06; font-family: 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', 'DejaVu Sans', Verdana, sans-serif; font-weight: bolder; font-size: large; text-align: left;">RClone | Mount Checks</td>
     </tr>
   </tbody>
 </table>
-<table width="1000" height="44" border="1" align="center" cellpadding="0" cellspacing="0">
+<table width="100%" height="44" border="1" align="center" cellpadding="0" cellspacing="0">
   <tbody>
     <tr>
       <td width="130" height="21" bgcolor="#000000" style="color: #F7F6F6; font-family: Segoe, 'Segoe UI', 'DejaVu Sans', 'Trebuchet MS', Verdana, sans-serif; font-weight: bold; font-size: medium;"><strong>&nbsp;&nbsp;Union - RClone</strong></td>
