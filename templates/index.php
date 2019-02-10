@@ -235,14 +235,7 @@ echo "<pre>$output</pre>";
         <table width="100%" border="1" cellpadding="0" cellspacing="0">
           <tbody>
             <tr>
-              <td height="206"><table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
-                <tbody>
-                  <tr>
-                    <td width="90%" height="30" valign="top" style="color: #FFFFFF; font-family: 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', 'DejaVu Sans', Verdana, sans-serif; font-weight: bolder; font-size: large; text-align: left;">USEFUL NOTES</td>
-                  </tr>
-                </tbody>
-              </table>
-                <br>
+              <td height="206"><span style="color: #FFFFFF; font-family: 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', 'DejaVu Sans', Verdana, sans-serif; font-weight: bolder; font-size: large; text-align: left;">USEFUL NOTES</span><br>
                 <ul>
                   <li><a href="https://www.youtube.com/channel/UCe77pMIK5kj6teb1NzCi9pw">PG YouTube Channel</a></li>
                   <li><a href="https://github.com/Admin9705/PlexGuide.com-The-Awesome-Plex-Server/wiki/Common-Issues">Wiki - Common Issues</a></li>
