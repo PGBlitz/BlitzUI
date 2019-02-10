@@ -4,6 +4,7 @@
 <meta http-equiv="refresh" content="25" />
 <meta charset="UTF-8">
 <title>PG User Interface</title>
+<link rel="icon" type="image/png" href="https://plexguide.com/styles/io_dark/images/pglogo.png" sizes="32x32">
 <style type="text/css">
 body {
 	background-color: #282E39;
