@@ -113,7 +113,7 @@ echo "<pre>$output</pre>";
   <tbody>
     <tr>
       <td width="105" height="20" bgcolor="#000000" style="color: #F7F6F6; font-family: Segoe, 'Segoe UI', 'DejaVu Sans', 'Trebuchet MS', Verdana, sans-serif; font-weight: bold; font-size: medium;"><span class="test"><strong>&nbsp;&nbsp;OS&nbsp;</strong></span></td>
-      <td width="252" height="20" class="test" style="color: #FFFFFF; font-family: Segoe, 'Segoe UI', 'DejaVu Sans', 'Trebuchet MS', Verdana, sans-serif;"><?php $output = shell_exec('cat /plexguide/pg.transport');
+      <td width="252" height="20" class="test" style="color: #FFFFFF; font-family: Segoe, 'Segoe UI', 'DejaVu Sans', 'Trebuchet MS', Verdana, sans-serif;"><?php $output = shell_exec('cat /plexguide/pg.os');
 echo "<pre>$output</pre>";
 ?>
         <span style="text-align: center"></span><span style="text-align: justify"></span></td>
