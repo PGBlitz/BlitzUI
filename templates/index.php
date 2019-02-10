@@ -3,7 +3,7 @@
 <head>
 <meta http-equiv="refresh" content="25" />
 <meta charset="UTF-8">
-<title>Untitled Document</title>
+<title>PG User Interface</title>
 <style type="text/css">
 body {
 	background-color: #282E39;
@@ -103,7 +103,7 @@ echo "<pre>$output</pre>";
             <tr>
               <td width="15%" height="21" bgcolor="#000000" style="color: #F7F6F6; font-family: Segoe, 'Segoe UI', 'DejaVu Sans', 'Trebuchet MS', Verdana, sans-serif; font-weight: bold; font-size: medium;"><strong>&nbsp;&nbsp;Union - RClone</strong></td>
               <td width="18%" height="21" class="test" style="color: #FFFFFF; font-family: Segoe, 'Segoe UI', 'DejaVu Sans', 'Trebuchet MS', Verdana, sans-serif;"><span class="test" style="color: #FFFFFF; font-family: Segoe, 'Segoe UI', 'DejaVu Sans', 'Trebuchet MS', Verdana, sans-serif; font-size: medium;">
-                <?php $output = shell_exec('cat /plexguide/pg.gdrive');
+                <?php $output = shell_exec('cat /plexguide/pg.union');
 echo "<pre>$output</pre>";
 ?>
               </span></td>
@@ -123,13 +123,13 @@ echo "<pre>$output</pre>";
             <tr>
               <td width="15%" height="21" bgcolor="#000000" style="color: #F7F6F6; font-family: Segoe, 'Segoe UI', 'DejaVu Sans', 'Trebuchet MS', Verdana, sans-serif; font-weight: bold; font-size: medium;"><strong>&nbsp; Union - Mount</strong></td>
               <td width="18%" height="21" class="test" style="color: #FFFFFF; font-family: Segoe, 'Segoe UI', 'DejaVu Sans', 'Trebuchet MS', Verdana, sans-serif;"><span class="test" style="color: #FFFFFF; font-family: Segoe, 'Segoe UI', 'DejaVu Sans', 'Trebuchet MS', Verdana, sans-serif; font-size: medium;">
-                <?php $output = shell_exec('cat /plexguide/pg.gdrive');
+                <?php $output = shell_exec('cat /plexguide/pg.umount');
 echo "<pre>$output</pre>";
 ?>
               </span></td>
               <td width="15%" height="21" bgcolor="#000000" style="color: #F7F6F6; font-family: Segoe, 'Segoe UI', 'DejaVu Sans', 'Trebuchet MS', Verdana, sans-serif; font-weight: bold; font-size: medium; "><span style="color: #F7F6F6; font-family: Segoe, 'Segoe UI', 'DejaVu Sans', 'Trebuchet MS', Verdana, sans-serif; font-weight: bold; font-size: medium;"><strong>&nbsp;&nbsp;GDrive - Mount</strong></span></td>
               <td width="170" height="21" class="test" style="color: #FFFFFF; font-family: Segoe, 'Segoe UI', 'DejaVu Sans', 'Trebuchet MS', Verdana, sans-serif; font-size: medium;"><span class="test" style="color: #FFFFFF; font-family: Segoe, 'Segoe UI', 'DejaVu Sans', 'Trebuchet MS', Verdana, sans-serif; font-size: medium;">
-                <?php $output = shell_exec('cat /plexguide/pg.gdrive');
+                <?php $output = shell_exec('cat /plexguide/pg.tmount');
 echo "<pre>$output</pre>";
 ?>
               </span></td>
