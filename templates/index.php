@@ -179,13 +179,13 @@ echo "<pre>$output</pre>";
               </span></td>
               <td width="15%" height="21" bgcolor="#000000" style="font-size: medium">&nbsp;&nbsp;PG Shield</td>
               <td width="18%" height="21" style="font-size: medium"><span class="test" style="color: #FFFFFF; font-family: Segoe, 'Segoe UI', 'DejaVu Sans', 'Trebuchet MS', Verdana, sans-serif; font-size: medium;">
-                <?php $output = shell_exec('cat /plexguide/pg.shield');
+                <?php $output = shell_exec('cat /plexguide/pg.oauth');
 echo "<pre>$output</pre>";
 ?>
               </span></td>
               <td width="15%" bgcolor="#000000" style="font-size: medium">&nbsp;&nbsp;PortGuard</td>
               <td width="18%" height="21" style="font-size: medium"><span class="test" style="color: #FFFFFF; font-family: Segoe, 'Segoe UI', 'DejaVu Sans', 'Trebuchet MS', Verdana, sans-serif; font-size: medium;">
-                <?php $output = shell_exec('cat /var/pg.ports');
+                <?php $output = shell_exec('cat /plexguide/pg.ports');
 echo "<pre>$output</pre>";
 ?>
               </span></td>
