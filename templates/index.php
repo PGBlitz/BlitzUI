@@ -27,7 +27,9 @@ a:link {
   <tbody>
     <tr>
       <td width="104">&nbsp;</td>
-      <td width="876" align="center"><h1><strong style="color: #FFFFFF; font-family: Segoe, 'Segoe UI', 'DejaVu Sans', 'Trebuchet MS', Verdana, sans-serif; font-size: xx-large; font-weight: bolder;">PG User Interface (PG UI)</strong></h1></td>
+      <td width="876" align="center"><h1><strong style="color: #FFFFFF; font-family: Segoe, 'Segoe UI', 'DejaVu Sans', 'Trebuchet MS', Verdana, sans-serif; font-size: xx-large; font-weight: bolder;">PG User Interface (PG UI)<br>
+          <span style="font-size: small"><em>NOTE: Page Auto-Refreshes Every 25 Seconds</em></span><br>
+      </strong></h1></td>
       <td width="104" align="center"><img src="https://camo.githubusercontent.com/2d9a1f02588a2f0635117ab3e43dca618344c895/68747470733a2f2f706c657867756964652e636f6d2f77696b69706963732f6c6f676f2e706e67" width="75" height="75" alt=""/></td>
     </tr>
   </tbody>
