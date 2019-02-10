@@ -57,7 +57,7 @@ a:visited {
 <table width="100%" cellpadding="10">
   <tbody>
     <tr>
-      <td valign="top"><table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+      <td height="100" valign="top"><table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
           <tbody>
             <tr>
               <td width="90%" height="30" style="color: #0FA702; font-family: 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', 'DejaVu Sans', Verdana, sans-serif; font-weight: bolder; font-size: large; text-align: left;">BLITZ LOG (MOVE WILL BE ADDED LATER)</td>
@@ -235,7 +235,7 @@ echo "<pre>$output</pre>";
         <table width="100%" border="1" cellpadding="0" cellspacing="0">
           <tbody>
             <tr>
-              <td><table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+              <td height="206"><table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
                 <tbody>
                   <tr>
                     <td width="90%" height="30" valign="top" style="color: #FFFFFF; font-family: 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', 'DejaVu Sans', Verdana, sans-serif; font-weight: bolder; font-size: large; text-align: left;">USEFUL NOTES</td>
@@ -247,21 +247,18 @@ echo "<pre>$output</pre>";
                   <li><a href="https://www.youtube.com/channel/UCe77pMIK5kj6teb1NzCi9pw">PG YouTube Channel</a></li>
                   <li><a href="https://github.com/Admin9705/PlexGuide.com-The-Awesome-Plex-Server/wiki/Common-Issues">Wiki - Common Issues</a></li>
                 </ul>
-                <p><u><strong style="font-size: large">TIP 1 </strong></u></p>
-                <p>Running PG on a dedicated server? Ensure to turn port guard on and turn on PG Shield. Failing to do so leaves you open to attacks.</p>
-                <p><u><strong style="font-size: large">TIP 2</strong></u></p>
-                <p>Secured portainer? Make sure to visit the container to secure it!</p>
-                <p><u><strong style="font-size: large">TIP 3</strong></u></p>
-                <p>Loving PlexGuide? Become a <a href="https://plexguide.com/account/upgrades">PG Donor or Sponsor</a>!</p></td>
+                <p><span style="color: #FFFFFF; font-family: 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', 'DejaVu Sans', Verdana, sans-serif; font-weight: bolder; font-size: large; text-align: left;">TIPS</span></p>
+                <ol>
+                  <li>Running PG on a dedicated server? Ensure to turn port guard on and turn on PG Shield. Failing to do so leaves you open to attacks.</li>
+                  <li>Secured portainer? Make sure to visit the container to secure it!                </li>
+                  <li>Loving PlexGuide? Become a <a href="https://plexguide.com/account/upgrades">PG Donor or Sponsor</a>!</li>
+                </ol>                </td>
             </tr>
           </tbody>
         </table>
-        <p><br>
-      </p>
-      <p></p></td>
+        </td>
     </tr>
   </tbody>
 </table>
-<p>&nbsp;</p>
 </body>
 </html>
