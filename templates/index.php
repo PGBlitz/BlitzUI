@@ -191,15 +191,16 @@ echo "<pre>$output</pre>";
     </tr>
   </tbody>
 </table>
-<br>
-<table width="1000" border="0" align="center" cellpadding="0" cellspacing="0">
+
+<p>&nbsp;</p>
+<table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
   <tbody>
     <tr>
       <td width="90%" height="30" style="color: #E11919; font-family: 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', 'DejaVu Sans', Verdana, sans-serif; font-weight: bolder; font-size: large; text-align: left;">WARNING LOG</td>
     </tr>
   </tbody>
 </table>
-<table width="1000" height="44" border="1" align="center" cellpadding="5" cellspacing="0">
+<table width="100%" height="44" border="1" align="center" cellpadding="5" cellspacing="0">
   <tbody>
     <tr>
       <td colspan="6" bgcolor="#000000" style="color: #F7F6F6; font-family: Segoe, 'Segoe UI', 'DejaVu Sans', 'Trebuchet MS', Verdana, sans-serif; font-weight: bold; font-size: medium;">NONE</td>
@@ -207,17 +208,17 @@ echo "<pre>$output</pre>";
   </tbody>
 </table>
 <br>
-<table width="1000" border="0" align="center" cellpadding="0" cellspacing="0">
+<table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
   <tbody>
     <tr>
       <td width="90%" height="30" style="color: #0FA702; font-family: 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', 'DejaVu Sans', Verdana, sans-serif; font-weight: bolder; font-size: large; text-align: left;">BLITZ LOG (MOVE WILL BE ADDED LATER)</td>
     </tr>
   </tbody>
 </table>
-<table width="1000" height="44" border="1" align="center" cellpadding="5" cellspacing="0">
+<table width="1000%" height="44" border="1" align="center" cellpadding="5" cellspacing="0">
   <tbody>
     <tr>
-      <td colspan="6" bgcolor="#000000" width="1000" style="color: #F7F6F6; font-family: Segoe, 'Segoe UI', 'DejaVu Sans', 'Trebuchet MS', Verdana, sans-serif; font-weight: bold; font-size: medium;"><span class="test" style="color: #FFFFFF; font-family: Segoe, 'Segoe UI', 'DejaVu Sans', 'Trebuchet MS', Verdana, sans-serif; font-size: medium;">
+      <td colspan="6" bgcolor="#000000" style="color: #F7F6F6; font-family: Segoe, 'Segoe UI', 'DejaVu Sans', 'Trebuchet MS', Verdana, sans-serif; font-weight: bold; font-size: medium;"><span class="test" style="color: #FFFFFF; font-family: Segoe, 'Segoe UI', 'DejaVu Sans', 'Trebuchet MS', Verdana, sans-serif; font-size: medium;">
         <?php $output = shell_exec('tac /var/plexguide/logs/pgblitz.log | sed -e "/PG Blitz Log - Cycle/q"');
 echo "<pre>$output</pre>";
 ?>
