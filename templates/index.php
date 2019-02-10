@@ -229,3 +229,14 @@ echo "<pre>$output</pre>";
 <p>&nbsp;</p>
 </body>
 </html>
+');
+echo "<pre>$output</pre>";
+?>
+      </span></td>
+    </tr>
+  </tbody>
+</table>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+</body>
+</html>
