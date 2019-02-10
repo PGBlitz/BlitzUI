@@ -19,6 +19,9 @@ body,td,th {
 a:link {
 	color: #E8DD06;
 }
+a:visited {
+	color: #E8DD06;
+}
 </style>
 </head>
 
