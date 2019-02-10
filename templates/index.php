@@ -217,8 +217,19 @@ echo "<pre>$output</pre>";
 <table width="1000" height="44" border="1" align="center" cellpadding="5" cellspacing="0">
   <tbody>
     <tr>
-      <td colspan="6" bgcolor="#000000" style="color: #F7F6F6; font-family: Segoe, 'Segoe UI', 'DejaVu Sans', 'Trebuchet MS', Verdana, sans-serif; font-weight: bold; font-size: medium;"><span class="test" style="color: #FFFFFF; font-family: Segoe, 'Segoe UI', 'DejaVu Sans', 'Trebuchet MS', Verdana, sans-serif; font-size: medium;">
-        <?php $output = shell_exec('tac /log/pgblitz.log | sed -e "/PG Blitz Log - Cycle/q"');
+      <td colspan="6" bgcolor="#000000" width="1000" style="color: #F7F6F6; font-family: Segoe, 'Segoe UI', 'DejaVu Sans', 'Trebuchet MS', Verdana, sans-serif; font-weight: bold; font-size: medium;"><span class="test" style="color: #FFFFFF; font-family: Segoe, 'Segoe UI', 'DejaVu Sans', 'Trebuchet MS', Verdana, sans-serif; font-size: medium;">
+        <?php $output = shell_exec('tac /var/plexguide/logs/pgblitz.log | sed -e "/PG Blitz Log - Cycle/q"');
+echo "<pre>$output</pre>";
+?>
+      </span></td>
+    </tr>
+  </tbody>
+</table>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+</body>
+</html>
+');
 echo "<pre>$output</pre>";
 ?>
       </span></td>
