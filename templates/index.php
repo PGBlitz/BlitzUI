@@ -1,6 +1,7 @@
 <!doctype html>
 <html>
 <head>
+<meta http-equiv="refresh" content="25" />
 <meta charset="UTF-8">
 <title>Untitled Document</title>
 <style type="text/css">
