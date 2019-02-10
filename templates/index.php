@@ -62,10 +62,16 @@ a:link {
   <tbody>
     <tr>
       <td width="130" bgcolor="#171515" style="font-size: medium">&nbsp;&nbsp;Edition</td>
-      <td width="170" style="font-size: medium"><span class="test" style="color: #FFFFFF; font-family: Segoe, 'Segoe UI', 'DejaVu Sans', 'Trebuchet MS', Verdana, sans-serif;">
-        <?php $output = shell_exec('cat /plexguide/pg.transport');
+      <td width="170" style="font-size: medium"><table cellpadding="5">
+        <tbody>
+          <tr>
+            <td><span class="test" style="color: #FFFFFF; font-family: Segoe, 'Segoe UI', 'DejaVu Sans', 'Trebuchet MS', Verdana, sans-serif;">
+              <?php $output = shell_exec('cat /plexguide/pg.transport');
        echo "<pre>$output</pre>" ?>
-      </span></td>
+            </span></td>
+          </tr>
+        </tbody>
+      </table></td>
       <td width="130" bgcolor="#171515" style="font-size: medium">&nbsp;&nbsp;Version</td>
       <td width="170" style="font-size: medium"><span class="test" style="color: #FFFFFF; font-family: Segoe, 'Segoe UI', 'DejaVu Sans', 'Trebuchet MS', Verdana, sans-serif; font-size: medium;">
         <?php $output = shell_exec('cat /plexguide/pg.number');
