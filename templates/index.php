@@ -145,6 +145,26 @@ echo "<pre>$output</pre>";
 ?>
               </span></td>
             </tr>
+	    <tr>
+              <td width="15%" bgcolor="#000000" style="font-size: medium"><span style="color: #F7F6F6; font-weight: bold; font-size: medium;"><strong>&nbsp; Mergerfs</strong></span></td>
+              <td width="18%" height="21" style="font-size: medium"><span class="test" style="color: #FFFFFF;">
+                <?php $output = shell_exec('sed -n 1p /plexguide/pg.mergerfs') ; 
+echo "<pre>$output</pre>";
+?>
+              </span></td>
+              <td width="15%" height="21" bgcolor="#000000" style="font-size: medium"><span style="color: #F7F6F6; font-family: Segoe, 'Segoe UI', 'DejaVu Sans', 'Trebuchet MS', Verdana, sans-serif; font-weight: bold; font-size: medium; "><span style="color: #F7F6F6; font-weight: bold; font-size: medium;"><strong>&nbsp;&nbsp;Fusermount</strong></span></span></td>
+              <td width="18%" height="21" style="font-size: medium"><span class="test" style="color: #FFFFFF; font-family: Segoe, 'Segoe UI', 'DejaVu Sans', 'Trebuchet MS', Verdana, sans-serif; font-size: medium;">
+                 <?php $output = shell_exec('sed -n 2p /plexguide/pg.mergerfs') ; 
+echo "<pre>$output</pre>";
+?>
+              </span></td>
+              <td width="15%" bgcolor="#000000" style="font-size: medium"><span class="test" style="color: #FFFFFF; font-family: Segoe, 'Segoe UI', 'DejaVu Sans', 'Trebuchet MS', Verdana, sans-serif; font-size: medium; font-weight: bold;"><span style="color: #F7F6F6; font-weight: bold; font-size: medium;"><strong>&nbsp;&nbsp;Mergerfs OS</strong></span></span></td>
+              <td width="18%" height="21" style="font-size: medium"><span class="test" style="color: #FFFFFF; font-family: Segoe, 'Segoe UI', 'DejaVu Sans', 'Trebuchet MS', Verdana, sans-serif; font-size: medium;">
+                <?php $output = shell_exec('cat /plexguide/mergerfs.version');
+echo "<pre>$output</pre>";
+?>
+              </span></td>
+            </tr>
           </tbody>
         </table>
         <table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
