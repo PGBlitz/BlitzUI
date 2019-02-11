@@ -87,7 +87,11 @@ echo "<pre>$output</pre>";
         <table width="100%" height="44" border="1" align="center" cellpadding="5" cellspacing="0">
           <tbody>
             <tr>
-              <td colspan="6" bgcolor="#000000" style="color: #F7F6F6; font-family: Segoe, 'Segoe UI', 'DejaVu Sans', 'Trebuchet MS', Verdana, sans-serif; font-weight: bold; font-size: medium;">NONE</td>
+              <td colspan="6" bgcolor="#000000" style="color: #F7F6F6; font-family: Segoe, 'Segoe UI', 'DejaVu Sans', 'Trebuchet MS', Verdana, sans-serif; font-weight: bold; font-size: medium;"><span class="test" style="color: #FFFFFF; font-family: Segoe, 'Segoe UI', 'DejaVu Sans', 'Trebuchet MS', Verdana, sans-serif;">
+                <?php $output = shell_exec('cat /plexguide/emergency.log');
+echo "<pre>$output</pre>";
+?>
+              </span></td>
             </tr>
           </tbody>
         </table>
@@ -250,7 +254,7 @@ echo "<pre>$output</pre>";
             </tr>
           </tbody>
         </table>
-        </td>
+      </td>
     </tr>
   </tbody>
 </table>
