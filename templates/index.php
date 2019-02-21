@@ -4,7 +4,7 @@
 <meta http-equiv="refresh" content="25" />
 <meta charset="UTF-8">
 <title>PG User Interface</title>
-<link rel="icon" type="image/png" href="https://plexguide.com/styles/io_dark/images/pglogo.png" sizes="32x32">
+<link rel="icon" type="image/png" href="https://pgblitz.com/styles/io_dark/images/pglogo.png" sizes="32x32">
 <style type="text/css">
 body {
 	background-color: #282E39;
@@ -42,9 +42,9 @@ a:visited {
 <table width="530" align="center" cellpadding="5">
   <tbody>
     <tr>
-      <td width="25%" style="text-align: center"><a href="https://plexguide.com/forums"><img src="https://camo.githubusercontent.com/6a9261977df6c815e4c1c0be4131cc243e7f9496/68747470733a2f2f706c657867756964652e636f6d2f77696b69706963732f6c6f676f2d666f72756d732e706e67" alt="" width="160" height="25"/></a></td>
+      <td width="25%" style="text-align: center"><a href="https://pgblitz.com/forums"><img src="https://camo.githubusercontent.com/6a9261977df6c815e4c1c0be4131cc243e7f9496/68747470733a2f2f706c657867756964652e636f6d2f77696b69706963732f6c6f676f2d666f72756d732e706e67" alt="" width="160" height="25"/></a></td>
       <td width="25%" style="text-align: center"><a href="https://github.com/Admin9705/PlexGuide.com-The-Awesome-Plex-Server/wiki"><img src="https://camo.githubusercontent.com/b654870b2693e9f82158f87fda567a2d9e4828f8/68747470733a2f2f706c657867756964652e636f6d2f77696b69706963732f6c6f676f2d77696b692e706e67" alt="" width="160" height="25"/></a></td>
-      <td width="25%" style="text-align: center"><a href="https://plexguide.com/account/upgrades"><img src="https://camo.githubusercontent.com/fc76dd93918b3e530376731d3bbd86627b339a69/68747470733a2f2f706c657867756964652e636f6d2f77696b69706963732f6c6f676f2d646f6e6174652e706e67" alt="" width="160" height="25"/></a></td>
+      <td width="25%" style="text-align: center"><a href="https://pgblitz.com/account/upgrades"><img src="https://camo.githubusercontent.com/fc76dd93918b3e530376731d3bbd86627b339a69/68747470733a2f2f706c657867756964652e636f6d2f77696b69706963732f6c6f676f2d646f6e6174652e706e67" alt="" width="160" height="25"/></a></td>
     </tr>
   </tbody>
 </table>
@@ -249,7 +249,7 @@ echo "<pre>$output</pre>";
                 <ol>
                   <li>Running PG on a dedicated server? Ensure to turn port guard on and turn on PG Shield. Failing to do so leaves you open to attacks.</li>
                   <li>Secured portainer? Make sure to visit the container to secure it!                </li>
-                  <li>Loving PlexGuide? Become a <a href="https://plexguide.com/account/upgrades">PG Donor or Sponsor</a>!</li>
+                  <li>Loving PlexGuide? Become a <a href="https://pgblitz.com/account/upgrades">PG Donor or Sponsor</a>!</li>
                 </ol>                </td>
             </tr>
           </tbody>
