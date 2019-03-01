@@ -249,7 +249,7 @@ echo "<pre>$output</pre>";
                 <ol>
                   <li>Running PG on a dedicated server? Ensure to turn port guard on and turn on PG Shield. Failing to do so leaves you open to attacks.</li>
                   <li>Secured portainer? Make sure to visit the container to secure it!                </li>
-                  <li>Loving PlexGuide? Become a <a href="https://pgblitz.com/account/upgrades">PG Donor or Sponsor</a>!</li>
+                  <li>Loving PGBlitz? Become a <a href="https://pgblitz.com/account/upgrades">PG Donor or Sponsor</a>!</li>
                 </ol>                </td>
             </tr>
           </tbody>
