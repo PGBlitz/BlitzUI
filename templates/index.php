@@ -47,7 +47,11 @@ div {
 				</strong>
 			</h1>
 		</td>
-      <td width="104" align="center"><img src="https://i.imgur.com/T7OQsZz.png" width="75%" height="75%" alt=""/></td>
+	<td width="104" align="center">
+	       <a href="https://pgblitz.com/forums/">
+			<img src="https://i.imgur.com/T7OQsZz.png" width="75%" height="75%" />
+	       </a>
+	</td>
     </tr>
   </tbody>
 </table>
