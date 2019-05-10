@@ -1,7 +1,7 @@
 <!doctype html>
 <html>
 <head>
-<meta http-equiv="refresh" content="10" />
+<meta http-equiv="refresh" content="25" />
 <meta charset="UTF-8">
 <title>PG User Interface</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -42,7 +42,7 @@ div {
 		<td width="876" align="center">
 			<h1>
 				<strong style="color: #000000; font-family: Segoe, 'Segoe UI', 'DejaVu Sans', 'Trebuchet MS', Verdana, sans-serif; font-size: xx-large; font-weight: bolder;">PG User Interface (PG UI)<br>
-					<span style="color: #053F00; font-size: small">Auto-Refreshes Every 10 Seconds</span>	
+					<span style="color: #053F00; font-size: small">Auto-Refreshes Every 25 Seconds</span>	
 					<br>
 				</strong>
 			</h1>
