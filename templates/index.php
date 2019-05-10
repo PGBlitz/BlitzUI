@@ -1,10 +1,11 @@
 <!doctype html>
 <html>
 <head>
-<meta http-equiv="refresh" content="25" />
+<meta http-equiv="refresh" content="10" />
 <meta charset="UTF-8">
 <title>PG User Interface</title>
-<link rel="icon" type="image/png" href="https://pgblitz.com/styles/io_dark/images/pglogo.png" sizes="32x32">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" type="image/png" href="https://i.imgur.com/T7OQsZz.png" sizes="32x32">
 <style type="text/css">
 body {
 	background-color: #282E39;
@@ -23,21 +24,34 @@ a:link {
 a:visited {
 	color: #E8DD06;
 }
+div {
+  width: 100%;
+  height: 100%;
+  background-image: -webkit-linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url('https://i.imgur.com/01ueZ9g.png');
+  background-size: 100% 100%;
+}
 </style>
 </head>
 
 <body text="#FFFFFF">
-<table width="100%" border="0" cellpadding="5" cellspacing="0" background="https://pgblitz.com/wikipics/motherboard3.png">
+<div>
+<table width="100%" border="0" cellpadding="5" cellspacing="0">
   <tbody>
     <tr>
       <td width="104">&nbsp;</td>
-      <td width="876" align="center"><h1><strong style="color: #FFFFFF; font-family: Segoe, 'Segoe UI', 'DejaVu Sans', 'Trebuchet MS', Verdana, sans-serif; font-size: xx-large; font-weight: bolder;">PG User Interface (PG UI)<br>
-          <span style="font-size: small">Auto-Refreshes Every 25 Seconds</span><br>
-      </strong></h1></td>
-      <td width="104" align="center"><img src="https://camo.githubusercontent.com/2d9a1f02588a2f0635117ab3e43dca618344c895/68747470733a2f2f706c657867756964652e636f6d2f77696b69706963732f6c6f676f2e706e67" width="75" height="75" alt=""/></td>
+		<td width="876" align="center">
+			<h1>
+				<strong style="color: #000000; font-family: Segoe, 'Segoe UI', 'DejaVu Sans', 'Trebuchet MS', Verdana, sans-serif; font-size: xx-large; font-weight: bolder;">PG User Interface (PG UI)<br>
+					<span style="color: #053F00; font-size: small">Auto-Refreshes Every 10 Seconds</span>	
+					<br>
+				</strong>
+			</h1>
+		</td>
+      <td width="104" align="center"><img src="https://i.imgur.com/T7OQsZz.png" width="75%" height="75%" alt=""/></td>
     </tr>
   </tbody>
 </table>
+</div>
 <br>
 <table width="530" align="center" cellpadding="5">
   <tbody>
