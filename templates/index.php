@@ -1,6 +1,6 @@
 <!doctype html>
 <html>
-<meta http-equiv="refresh" content="25" charset="UTF-8"/>
+<meta http-equiv="refresh" content="10" charset="UTF-8"/>
 <meta name="robots" content="noindex" content="nofollow” />
 <meta http-equiv="Cache-Control" content="no-cache">
 <meta name="copyright" content="pgblitz.com" />
@@ -84,7 +84,7 @@ for (i = 0; i < coll.length; i++) {
 				<strong style="color: #000000; font-family: Segoe, 'Segoe UI', 'DejaVu Sans', 'Trebuchet MS', Verdana, sans-serif; font-size: xx-large; font-weight: bolder;">
 						PG User Interface (PG UI)<br>
 					<span style="color: #053F00; font-size: small">
-						Auto-Refreshes Every 25 Seconds
+						Auto-Refreshes Every 10 Seconds
 					</span>	
 					<br>
 				</strong>
@@ -100,22 +100,6 @@ for (i = 0; i < coll.length; i++) {
 </table>
 </div>
 <br>
-<table width="530" align="center" cellpadding="5">
-  <tbody>
-    <tr>
-      <td width="25%" style="text-align: center"><a href="https://pgblitz.com/forums"><img src="https://camo.githubusercontent.com/6a9261977df6c815e4c1c0be4131cc243e7f9496/68747470733a2f2f706c657867756964652e636f6d2f77696b69706963732f6c6f676f2d666f72756d732e706e67" alt="" width="160" height="25"/></a></td>
-      <td width="25%" style="text-align: center"><a href="https://github.com/PGBlitz/PGBlitz.com/wiki"><img src="https://camo.githubusercontent.com/b654870b2693e9f82158f87fda567a2d9e4828f8/68747470733a2f2f706c657867756964652e636f6d2f77696b69706963732f6c6f676f2d77696b692e706e67" alt="" width="160" height="25"/></a></td>
-      <td width="25%" style="text-align: center"><a href="https://pgblitz.com/account/upgrades"><img src="https://camo.githubusercontent.com/fc76dd93918b3e530376731d3bbd86627b339a69/68747470733a2f2f706c657867756964652e636f6d2f77696b69706963732f6c6f676f2d646f6e6174652e706e67" alt="" width="160" height="25"/></a></td>
-    </tr>
-  </tbody>
-</table>
-<table width="90%" border="0" align="center" cellpadding="0" cellspacing="0">
-  <tbody>
-    <tr>
-      <td width="90%" height="30" style="color: #FFFFFF; font-family: 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', 'DejaVu Sans', Verdana, sans-serif; font-weight: bolder; font-size: small; text-align: center;"><span style="font-weight: bolder; font-style: normal;">PG Members Save - USENET Servers:&nbsp;&nbsp;</span><a href="https://www.newshosting.com/partners/?a_aid=5a65169240efd&a_bid=5ecfe99b">[NewsHosting]</a>&nbsp;&nbsp;<a href="https://www.usenetserver.com/partners?a_aid=5a65169240efd&a_bid=5725b6ed">[<span style="">UseNetServer</span>]</a>&nbsp;&nbsp;<a href="https://www.easynews.com/?a_aid=5a65169240efd&a_bid=ef2f9ea1">[EasyNews]</a></td>
-    </tr>
-  </tbody>
-</table>
 <table width="100%" cellpadding="10">
   <tbody>
     <tr>
@@ -193,6 +177,45 @@ for (i = 0; i < coll.length; i++) {
 				echo "<pre>$output</pre>";?>
 				  </span></td>
 				</tr>
+			</tbody>
+		</table>
+		</div>
+		<br>
+<!-- added	 used space tdrive | gdrive | tcryptn | gcrpty 	-->
+					<table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+			  <tbody>
+				<tr>
+				  <td width="100%" height="30" style="color: #E8DD06; font-family: 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', 'DejaVu Sans', Verdana, sans-serif; font-weight: bolder; font-size: large; text-align: left;">G / TDrive used space | reload every sunday</td>
+				</tr>
+			  </tbody>
+			</table>
+		<!--added -->
+		<button class="collapsible">hit for open</button>
+		<div class="content">
+		<table width="100%" height="60" border="1" align="center" cellpadding="0" cellspacing="0">
+			<tbody>
+				<tr>
+				  <td width="15%" height="21" bgcolor="#000000" style="color: #F7F6F6; font-family: Segoe, 'Segoe UI', 'DejaVu Sans', 'Trebuchet MS', Verdana, sans-serif; font-weight: bold; font-size: medium;"><strong>&nbsp;&nbsp;GDrive /wo Encyption </strong></td>
+				  <td width="18%" height="21" class="test" style="color: #FFFFFF; font-family: Segoe, 'Segoe UI', 'DejaVu Sans', 'Trebuchet MS', Verdana, sans-serif;"><span class="test" style="color: #FFFFFF; font-family: Segoe, 'Segoe UI', 'DejaVu Sans', 'Trebuchet MS', Verdana, sans-serif; font-size: medium;">
+					<?php $output = shell_exec('cat /plexguide/gduncrypt.log');
+						echo "<pre>$output</pre>";?></span></td>
+				  <td width="15%" height="21" bgcolor="#000000" style="color: #F7F6F6; font-family: Segoe, 'Segoe UI', 'DejaVu Sans', 'Trebuchet MS', Verdana, sans-serif; font-weight: bold; font-size: medium; "><span style="color: #F7F6F6; font-family: Segoe, 'Segoe UI', 'DejaVu Sans', 'Trebuchet MS', Verdana, sans-serif; font-weight: bold; font-size: medium;"><strong>&nbsp;&nbsp;GDrive /w Encyption</strong></span></td>
+				  <td width="18%" height="21" class="test" style="color: #FFFFFF; font-family: Segoe, 'Segoe UI', 'DejaVu Sans', 'Trebuchet MS', Verdana, sans-serif; font-size: medium;"><span class="test" style="color: #FFFFFF; font-family: Segoe, 'Segoe UI', 'DejaVu Sans', 'Trebuchet MS', Verdana, sans-serif; font-size: medium;">
+					<?php $output = shell_exec('cat /plexguide/gdcrpyt.log');
+						echo "<pre>$output</pre>";?></span></td>
+				</tr>
+				<tr>
+					<td width="15%" height="21" bgcolor="#000000" class="test" style="color: #FFFFFF; font-family: Segoe, 'Segoe UI', 'DejaVu Sans', 'Trebuchet MS', Verdana, sans-serif; font-size: medium; font-weight: bold;"><span style="color: #F7F6F6; font-family: Segoe, 'Segoe UI', 'DejaVu Sans', 'Trebuchet MS', Verdana, sans-serif; font-weight: bold; font-size: medium;"><strong> &nbsp;&nbsp;TDrive /wo Encyption</strong></span></td>
+					<td width="18%" height="21" class="test" style="color: #FFFFFF; font-family: Segoe, 'Segoe UI', 'DejaVu Sans', 'Trebuchet MS', Verdana, sans-serif; font-size: medium;"><span class="test" style="color: #FFFFFF; font-family: Segoe, 'Segoe UI', 'DejaVu Sans', 'Trebuchet MS', Verdana, sans-serif; font-size: medium;">
+					<?php $output = shell_exec('cat /plexguide/tduncrypt.log');
+						echo "<pre>$output</pre>";?>
+					<td width="15%" height="21" bgcolor="#000000" class="test" style="color: #FFFFFF; font-family: Segoe, 'Segoe UI', 'DejaVu Sans', 'Trebuchet MS', Verdana, sans-serif; font-size: medium; font-weight: bold;"><span style="color: #F7F6F6; font-family: Segoe, 'Segoe UI', 'DejaVu Sans', 'Trebuchet MS', Verdana, sans-serif; font-weight: bold; font-size: medium;"><strong> &nbsp;&nbsp;TDrive /w Encyption</strong></span></td>
+					<td width="18%" height="21" class="test" style="color: #FFFFFF; font-family: Segoe, 'Segoe UI', 'DejaVu Sans', 'Trebuchet MS', Verdana, sans-serif; font-size: medium;"><span class="test" style="color: #FFFFFF; font-family: Segoe, 'Segoe UI', 'DejaVu Sans', 'Trebuchet MS', Verdana, sans-serif; font-size: medium;">
+					<?php $output = shell_exec('cat /plexguide/tdcrypt.log');
+						echo "<pre>$output</pre>";?>
+				  </span></td>
+				</tr>
+				<!--added -->
 			</tbody>
 		</table>
 		</div>
@@ -283,23 +306,7 @@ for (i = 0; i < coll.length; i++) {
 				</tbody>
 			</table>
 			</div>
-        <table width="100%" border="1" cellpadding="0" cellspacing="0">
-          <tbody>
-            <tr>
-              <td height="206"><span style="color: #FFFFFF; font-family: 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', 'DejaVu Sans', Verdana, sans-serif; font-weight: bolder; font-size: large; text-align: left;">USEFUL NOTES</span><br>
-                <ul>
-                  <li><a href="https://www.youtube.com/channel/UCe77pMIK5kj6teb1NzCi9pw">PG YouTube Channel</a></li>
-                  <li><a href="https://github.com/PGBlitz/PGBlitz.com/wiki/Common-Issues">Wiki - Common Issues</a></li>
-                </ul>
-                <p><span style="color: #FFFFFF; font-family: 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', 'DejaVu Sans', Verdana, sans-serif; font-weight: bolder; font-size: large; text-align: left;">TIPS</span></p>
-                <ol>
-                  <li>Running PG on a dedicated server? Ensure to turn port guard on and turn on PG Shield. Failing to do so leaves you open to attacks.</li>
-                  <li>Secured portainer? Make sure to visit the container to secure it!                </li>
-                  <li>Loving PGBlitz? Become a <a href="https://pgblitz.com/account/upgrades">PG Donor or Sponsor</a>!</li>
-                </ol>                </td>
-            </tr>
-          </tbody>
-        </table>
+        <br>
       </td>
     </tr>
   </tbody>
