@@ -86,7 +86,7 @@ div {
           <tbody>
             <tr>
               <td colspan="6" bgcolor="#000000" style="color: #F7F6F6; font-family: Segoe, 'Segoe UI', 'DejaVu Sans', 'Trebuchet MS', Verdana, sans-serif; font-weight: bold; font-size: medium;"><span class="test" style="color: #FFFFFF; font-family: Segoe, 'Segoe UI', 'DejaVu Sans', 'Trebuchet MS', Verdana, sans-serif; font-size: medium;">
-                <?php $output = shell_exec('tail -n 25 /plexguide/logs/pgblitz.log | sed -e "/PG Blitz Log - Cycle/q"');
+                <?php $output = shell_exec('tail -n 35 /plexguide/logs/*.log | sed -e "/PG Blitz Log - Cycle/q"');
 echo "<pre>$output</pre>";
 ?>
               </span></td>
