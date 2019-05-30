@@ -78,7 +78,7 @@ div {
       <td height="100" valign="top"><table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
           <tbody>
             <tr>
-              <td width="90%" height="30" style="color: #0FA702; font-family: 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', 'DejaVu Sans', Verdana, sans-serif; font-weight: bolder; font-size: large; text-align: left;">BLITZ LOG (MOVE WILL BE ADDED LATER)</td>
+              <td width="90%" height="30" style="color: #0FA702; font-family: 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', 'DejaVu Sans', Verdana, sans-serif; font-weight: bolder; font-size: large; text-align: left;">PGBlitz LOG</td>
             </tr>
           </tbody>
         </table>
