@@ -1,9 +1,10 @@
 <!doctype html>
 <html>
-<head>
-<meta http-equiv="refresh" content="25" />
-<meta charset="UTF-8">
-<title>PG User Interface</title>
+<meta http-equiv="refresh" content="25" charset="UTF-8"/>
+<meta name="robots" content="noindex" content="nofollow” />
+<meta http-equiv="Cache-Control" content="no-cache">
+<meta name="copyright" content="pgblitz.com" />
+<title>PGUi Interface</title>
 <meta name="viewport" content="width=device-width, initial-scale=0.5">
 <link rel="icon" type="image/png" href="https://i.imgur.com/T7OQsZz.png" sizes="32x32">
 <style type="text/css">
