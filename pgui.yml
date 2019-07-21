@@ -16,7 +16,7 @@
       set_fact:
         pgrole: 'pgui'
         intport: '80'
-        export: "{{ ueport.stdout | default(8555) }}"
+        export: "8555"
         image: 'mrdoob/nginx:latest'
 
     # CORE (MANDATORY) ############################################################
