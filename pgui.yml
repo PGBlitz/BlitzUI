@@ -23,6 +23,21 @@
     - name: 'Including cron job'
       include_tasks: '/opt/coreapps/apps/_core.yml'
 
+    - name: Register user cname
+      shell: 'cat /var/plexguide/{{program.stdout}}.cname'
+      register: ucname
+      ignore_errors: True
+      when: ucname_check.stat.exists == true
+
+    - name: Register CName
+      set_fact:
+        cname: ""
+
+    - name: Set cname
+      set_fact:
+        cname: ",{{ucname.stdout}}.{{domain.stdout}}"
+      when:  ucname_check.stat.exists == true and ucname.stdout != ""
+
     - name: Install File
       template:
         src: /opt/pgui/templates/index.php
