@@ -16,7 +16,7 @@
       set_fact:
         pgrole: 'pgui'
         intport: '80'
-        export: "8555"
+        extport: "8555"
         image: 'mrdoob/nginx:latest'
 
     # CORE (MANDATORY) ############################################################
