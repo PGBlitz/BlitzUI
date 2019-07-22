@@ -26,11 +26,11 @@
 
     - name: check if user cname file exists
       stat: 
-        path: /var/plexguide/{{program.stdout}}.cname
+        path: /var/plexguide/pgui.cname
       register: ucname_check
 
     - name: Register user cname
-      shell: 'cat /var/plexguide/{{program.stdout}}.cname'
+      shell: 'cat /var/plexguide/pgui.cname'
       register: ucname
       ignore_errors: True
       when: ucname_check.stat.exists == true
